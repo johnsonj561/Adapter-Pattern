@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_lDFVQPfTEeaGMNsZHUOFFw" name="model">
+  <ownedComment xmi:id="_HZbTUPfUEeaGMNsZHUOFFw">
+    <body>Client</body>
+  </ownedComment>
+  <ownedComment xmi:id="_KDaNUPfUEeaGMNsZHUOFFw" annotatedElement="_6U2CsPfTEeaGMNsZHUOFFw">
+    <body>Client</body>
+  </ownedComment>
+  <ownedComment xmi:id="_qJc8sPfUEeaGMNsZHUOFFw" annotatedElement="_-ZVL0PfTEeaGMNsZHUOFFw">
+    <body>adaptee->specificRequest()</body>
+  </ownedComment>
+  <packagedElement xmi:type="uml:Class" xmi:id="_6U2CsPfTEeaGMNsZHUOFFw" name="Target">
+    <ownedOperation xmi:id="_mL_BkPfUEeaGMNsZHUOFFw" name="request"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8bOgYPfTEeaGMNsZHUOFFw" name="Adaptee">
+    <ownedOperation xmi:id="_oY8oYPfUEeaGMNsZHUOFFw" name="specificRequest"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-ZVL0PfTEeaGMNsZHUOFFw" name="Adapter">
+    <generalization xmi:id="_DK_kAPfUEeaGMNsZHUOFFw" general="_6U2CsPfTEeaGMNsZHUOFFw"/>
+    <generalization xmi:id="_EMTQAPfUEeaGMNsZHUOFFw" general="_8bOgYPfTEeaGMNsZHUOFFw"/>
+    <ownedOperation xmi:id="_nV_9oPfUEeaGMNsZHUOFFw" name="request"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_YqKbUPfUEeaGMNsZHUOFFw" name="Clent"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_amjPgPfUEeaGMNsZHUOFFw" clientDependency="_ezRHkPfUEeaGMNsZHUOFFw" name="Client">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_ezRHkPfUEeaGMNsZHUOFFw" name="Usage1" client="_amjPgPfUEeaGMNsZHUOFFw" supplier="_6U2CsPfTEeaGMNsZHUOFFw"/>
+  </packagedElement>
+</uml:Model>
