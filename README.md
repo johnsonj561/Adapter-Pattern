@@ -6,8 +6,8 @@ Notes below regarding adapter pattern taken from "Design Patterns - Elements of 
 By Gamma, Helm, Johnson, Vlissides
 
 Example Code provided by Derek Banas:
-Tutorial: 
-Source Code: 
+Tutorial: https://www.youtube.com/watch?v=qG286LQM6BU
+Source Code: http://www.newthinktank.com/2012/09/adapter-design-pattern-tutorial/
 
 Author: Justin J
 
